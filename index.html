@@ -7,10 +7,6 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/228a485911.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="dist//css//main.css" />
     <title>weather-weekly</title>
   </head>
@@ -24,50 +20,53 @@
       </form>
     </div>
 
-    <div class="results-wrapper">
-      <div class="results-card">
-        <div class="card-head">
-          <h2 id="city-name">London</h2>
-          <h3 id="desc">Slight Overcast</h3>
-          <p>Monday, 3 August 2020</p>
-        </div>
-        <div class="cur-weather">
-          <h1 id="current-temp">72°</h1>
-          <div class="icon">
-            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
-          </div>
-          <div class="cur-details">
-            <p>Hi: 81°</p>
-            <p>Low: 73°</p>
-            <p>Humidity: 66%</p>
-            <p>Wind Speed: 11.17 meters / sec</p>
-          </div>
-        </div>
-        <div class="forecast">
-          <div class="icon">
-            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
-            <p>81°</p>
-          </div>
-          <div class="icon">
-            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
-            <p>81°</p>
-          </div>
-          <div class="icon">
-            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
-            <p>81°</p>
-          </div>
-          <div class="icon">
-            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
-            <p>81°</p>
-          </div>
-          <div class="icon">
-            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
-            <p>81°</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="results-wrapper"></div>
 
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
+
+<!-- <div class="results-card">
+    <div class="card-head">
+      <h2 id="city-name">London</h2>
+      <h3 id="desc">Slight Overcast</h3>
+      <p>Monday, 3 August 2020</p>
+    </div>
+    <div class="cur-weather">
+      <h1 id="current-temp">72°</h1>
+      <div class="icon">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
+      </div>
+      <div class="cur-details">
+        <p>Hi: <span id="day-hi">81°</span></p>
+        <p>Low:  <span id="day-low">73°</span></p>
+        <p>Humidity: 66%</p>
+        <p>Wind Speed: 11.17 meters / sec</p>
+      </div>
+    </div>
+    <div class="forecast">
+      <div class="icon">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
+        <p>81°</p>
+      </div>
+      <div class="icon">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
+        <p>81°</p>
+      </div>
+      <div class="icon">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
+        <p>81°</p>
+      </div>
+      <div class="icon">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
+        <p>81°</p>
+      </div>
+      <div class="icon">
+        <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="" />
+        <p>81°</p>
+      </div>
+    </div>
+  </div> -->
